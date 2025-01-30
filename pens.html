@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snacks</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url(bg.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+        }
+        h1 {
+            text-align: center;
+            color: white;
+        }
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .product {
+            width: calc(25% - 20px);
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product-info {
+            padding: 10px;
+        }
+        .product-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .product-price {
+            color: #009688;
+            font-size: 18px;
+        }
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        .back-button a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #009688;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .back-button a:hover {
+            background-color: #00796b;
+        }
+        .home-button {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .home-button a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #009688;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .home-button a:hover {
+            background-color: #00796b;
+        }
+        .copyright {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Snacks</h1>
+        <div class="back-button">
+            <a href="products.html">Back</a>
+        </div>
+        <div class="product-container">
+            <div class="product">
+                <img src="piatos.png" alt="Product 1">
+                <div class="product-info">
+                    <div class="product-title">Piatos</div>
+                    <div class="product-price">$15.00</div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="martys.png" alt="Product 2">
+                <div class="product-info">
+                    <div class="product-title">Martys</div>
+                    <div class="product-price">$15.00</div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="nova.png" alt="Product 3">
+                <div class="product-info">
+                    <div class="product-title">Nova</div>
+                    <div class="product-price">$15.00</div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="milkyKnots.png" alt="Product 4">
+                <div class="product-info">
+                    <div class="product-title">Milky Knots</div>
+                    <div class="product-price">$15.00</div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="clover.png" alt="Product 5">
+                <div class="product-info">
+                    <div class="product-title">Clover</div>
+                    <div class="product-price">$15.00</div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="potatoChips.jpg" alt="Product 6">
+                <div class="product-info">
+                    <div class="product-title">Potato Chips</div>
+                    <div class="product-price">$15.00</div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="potatoFries.jpg" alt="Product 7">
+                <div class="product-info">
+                    <div class="product-title">Potato Fries</div>
+                    <div class="product-price">$F15.00</div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="lays.jpg" alt="Product 8">
+                <div class="product-info">
+                    <div class="product-title">Lays</div>
+                    <div class="product-price">$15.00</div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="nacho.png" alt="Product 9">
+                <div class="product-info">
+                    <div class="product-title">Nacho</div>
+                    <div class="product-price">$15.00</div>
+                </div>
+            </div>
+        </div>
+        <div class="home-button">
+            <a href="index.html">Home</a>
+        </div>
+        <div class="copyright">
+            &copy; 2025 Pokkies. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>

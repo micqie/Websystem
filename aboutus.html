@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Us</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+
+        .heading {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .heading h1 {
+            font-size: 32px;
+            color: #333;
+        }
+
+        .heading p {
+            font-size: 16px;
+            color: #666;
+        }
+
+        .about {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .about-image {
+            flex: 1;
+            max-width: 45%;
+            margin-right: 20px;
+        }
+
+        .about-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 10px;
+        }
+
+        .about-content {
+            flex: 1;
+            max-width: 50%;
+        }
+
+        .about-content h2 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .about-content p {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 20px;
+            text-align: justify;
+            column-count: 2;
+            column-gap: 20px;
+        }
+
+        /* Additional styling for new sections */
+        .section {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        .section-heading {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .section-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .section-content .item {
+            flex: 1;
+            max-width: 30%;
+            margin-bottom: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+
+        .section-content .item h3 {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .section-content .item p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .contact-info .info-item {
+            flex-basis: 50%;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .contact-info .info-item i {
+            margin-right: 10px;
+            color: #333;
+        }
+
+        /* Social Icons */
+        .social-icons {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #333;
+            font-size: 24px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #555;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .about {
+                flex-direction: column;
+            }
+
+            .about-image,
+            .about-content {
+                max-width: 100%;
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+
+            .section-content .item {
+                max-width: 100%;
+            }
+        }
+
+        /* Home button styling */
+        .home-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            color: #333;
+            text-decoration: none;
+            font-size: 24px;
+        }
+
+        /* Copyright notice */
+        .copyright {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <!-- Home button -->
+    <a href="index.html" class="home-button"><i class="fas fa-home"></i></a>
+
+    <div class="container">
+        <div class="heading">
+            <h1>About Us</h1>
+            <p>Discover curated collections of high-quality school supplies that inspire and support learning. From notebooks to art materials, we're dedicated to excellence, sustainability, and education. Join us on our journey and find the perfect tools for success today.</p>
+        </div>
+
+        <div class="about">
+            <div class="about-image">
+                <img src="supplies.jpeg" alt="About Us Image">
+            </div>
+            <div class="about-content">
+                <h2>Shop Smarter, Learn Better!</h2>
+                <a>We're more than just a store we're your go to destination for quality school supplies and learning essentials. Explore our curated collections featuring study tips, product highlights, and expert recommendations. From stationery to educational tools, we're here to support your journey to success.</a>
+            </div>
+        </div>
+
+        <!-- Developers Section -->
+        <section class="section" style="background-color: #f9f9f9;">
+            <h2 class="section-heading">Developers</h2>
+            <div class="section-content">
+                <div class="item">
+                    <h3>Micah Lago</h3>
+                    <p>Lead Developer</p>
+                </div>
+                <div class="item">
+                    <h3>Shandi Kate P. Linaac</h3>
+                    <p>UI/UX Designer</p>
+                </div>
+                <div class="item">
+                    <h3>Laurice Maye Caduyac</h3>
+                    <p>Frontend Developer</p>
+                </div>
+                <div class="item">
+                    <h3>Ashley Idago</h3>
+                    <p>Backend Developer</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Socials Section -->
+        <section class="section" style="background-color: #f2f9fc;">
+            <h2 class="section-heading">Socials</h2>
+            <div class="section-content social-icons">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section" style="background-color: #f7f7f7;">
+            <h2 class="section-heading">Contact</h2>
+            <div class="section-content contact-info">
+                <div class="info-item">
+                    <i class="fa fa-map-marker"></i>
+                    <span>Max Suniel, Carmen, CGY, Misamis Oriental 9000</span>
+                </div>
+                <div class="info-item">
+                    <i class="fa fa-phone"></i>
+                    <span>09526313663</span>
+                </div>
+                <div class="info-item">
+                    <i class="fa fa-envelope"></i>
+                    <span>pookiessupplies@gmail.com</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews Section -->
+        <section class="section" style="background-color: #fff6f6;">
+            <h2 class="section-heading">Reviews</h2>
+            <div class="section-content">
+                <div class="item">
+                    <h3>Nick Rysher Datu</h3>
+                    <p>"Great products and fast shipping! Will definitely buy again."</p>
+                </div>
+                <div class="item">
+                    <h3>Sean Joniel Pabilona</h3>
+                    <p>"Love the quality of the items and the customer service is fantastic."</p>
+                </div>
+                <div class="item">
+                    <h3>Louie Cassandra Zapico</h3>
+                    <p>"Highly recommended! The prices are competitive and the selection is excellent."</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Message Section -->
+        <section class="section" style="background-color: #f2f2f2;">
+            <h2 class="section-heading">Feedback</h2>
+            <div class="section-content">
+                <form>
+                    <input type="text" name="name" placeholder="Your Name">
+                    <input type="email" name="email" placeholder="Your Email">
+                    <textarea name="message" placeholder="Your Message"></textarea>
+                    <button type="submit">Send Feedback</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Copyright notice -->
+        <div class="copyright">
+            &copy; 2025 All rights reserved. Pokkies Store
+        </div>
+    </div>
+</body>
+</html>

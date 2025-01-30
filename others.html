@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Necessities</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url(Bg.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+        }
+        h1 {
+            text-align: center;
+            color: white;
+        }
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .product {
+            width: calc(25% - 20px);
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product-info {
+            padding: 10px;
+        }
+        .product-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .product-price {
+            color: #009688;
+            font-size: 18px;
+        }
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        .back-button a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #009688;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .back-button a:hover {
+            background-color: #00796b;
+        }
+        .home-button {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .home-button a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #009688;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .home-button a:hover {
+            background-color: #00796b;
+        }
+        .copyright {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Necessities</h1>
+        <div class="back-button">
+            <a href="products.html">Back</a>
+        </div>
+        <div class="product-container">
+            <div class="product">
+                <img src="toothbrush.jpg" alt="Product 1">
+                <div class="product-info">
+                    <div class="product-title">Toothbrush</div>
+                    <div class="product-price">$15.00</div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="toothpaste.jpg" alt="Product 2">
+                <div class="product-info">
+                    <div class="product-title">Toothpaste</div>
+                    <div class="product-price">$15.00</div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="doveM.jpg" alt="Product 3">
+                <div class="product-info">
+                    <div class="product-title">Dove Men</div>
+                    <div class="product-price">$15.00</div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="doveW.jpg" alt="Product 4">
+                <div class="product-info">
+                    <div class="product-title">Dove Women</div>
+                    <div class="product-price">$15.00</div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="sabon.jpg" alt="Product 5">
+                <div class="product-info">
+                    <div class="product-title">Safe Guard Soap</div>
+                    <div class="product-price">$15.00</div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="sabonBioderm.jpg" alt="Product 6">
+                <div class="product-info">
+                    <div class="product-title">Bioderm Soap</div>
+                    <div class="product-price">$15.00</div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="shampo.jpg" alt="Product 7">
+                <div class="product-info">
+                    <div class="product-title">Shampoo</div>
+                    <div class="product-price">$F15.00</div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="napkin.jpg" alt="Product 8">
+                <div class="product-info">
+                    <div class="product-title">Napkin</div>
+                    <div class="product-price">$15.00</div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="earBuds.jpg" alt="Product 9">
+                <div class="product-info">
+                    <div class="product-title">Ear Buds</div>
+                    <div class="product-price">$15.00</div>
+                </div>
+            </div>
+        </div>
+        <div class="home-button">
+            <a href="index.html">Home</a>
+        </div>
+        <div class="copyright">
+            &copy; 2025 Pokkies. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>

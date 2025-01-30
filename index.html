@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        .container {
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(supplies1.jpeg);
+            background-position: center;
+            background-size: cover;
+            padding-left: 8%;
+            padding-right: 8%;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+        }
+        .logo {
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+            margin-right: 20px; 
+            border-radius: 50%;
+            overflow: hidden;
+            margin-top: 20px; 
+        }
+        .nav-links {
+            display: flex;
+            align-items: center;
+        }
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 20px; 
+            font-size: 16px;
+        }
+        .row {
+            display: flex;
+            height: 88%;
+            align-items: center;
+            justify-content: space-between; 
+        }
+        .col {
+            flex-basis: 50%;
+            padding-right: 20px; 
+        }
+        h1 {
+            color: #fff;
+            font-size: 80px;
+            text-align: justify; 
+        }
+        h3 {
+            color: #fff;
+            font-size: 20px;
+            text-align: justify; 
+        }
+        p {
+            color: #fff;
+            font-size: 12px;
+            line-height: 18px;
+            text-align: justify; 
+        }
+        button {
+            width: 180px;
+            color: #000;
+            font-size: 12px;
+            padding: 12px 0;
+            background: #fff;
+            border: 0;
+            border-radius: 20px;
+            outline: none;
+            margin-top: 30px;
+            cursor: pointer;
+            text-align: center; 
+        }
+        .card {
+            color: #fff;
+            width: 180px; 
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            padding: 20px 25px;
+            box-sizing: border-box;
+            cursor: pointer;
+            margin: 10px;
+            background-position: center;
+            background-size: cover;
+            overflow: hidden; 
+        }
+        .copyright {
+            color: #fff;
+            font-size: 12px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="aboutus.html">
+                <img src="logo3.webp" class="logo">
+            </a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="products.html">Products</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h1>Pokkies</h1>
+                <h3>Your Trusted School Supplies Store</h3>
+                <p>Pookies Supplies is your one-stop shop for all your school supply needs. From notebooks and pens to backpacks and art materials, we provide high-quality essentials for students and educators. With a convenient online shopping experience and fast delivery, getting your supplies has never been easier. Shop now and stay prepared for academic success!</p>
+                <button type="button"><a href="products.html">SHOP NOW</a></button>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <h5></h5>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2025 Pokkies Supplies. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
